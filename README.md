@@ -1,10 +1,29 @@
-# Best-restaurant-of all
-Improve the project description.
+# Best Restaurant
 
-Add a missing planned feature.
+A restaurant management and online food ordering platform designed to make restaurant operations easier.
 
-Clarify the technology stack.
+## Project Status
 
-you can jointly add a project setup section explaining how to install dependencies and run the application.
+🚧 Currently under development.
 
-Co-authored-by: Raymond <351252538+raymondajm39-cyber@users.noreply.github.com>
+## Planned Features
+
+- Digital restaurant menu
+- Online food ordering
+- Kitchen order management
+- Table reservations
+- Inventory management
+- Sales reports
+- Receipt generation
+
+## Technology Stack
+
+- React
+- Django
+- PostgreSQL
+- WebSockets
+
+## Contributors
+
+- Jean Paul Ngoga
+- Raymond
