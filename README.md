@@ -5,8 +5,6 @@ Add a missing planned feature.
 
 Clarify the technology stack.
 
-you can jointly add a project setup section explaining how to install dependencies and run the application.
-
 we should clarify every step so that we can avoid confusion
 
 ## Contributors
