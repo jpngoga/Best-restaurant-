@@ -5,7 +5,7 @@ Add a missing planned feature.
 
 Clarify the technology stack.
 
-we should clarify every step so that we can avoid confusion
+we should clarify every step so that we can avoid confusions
 
 ## Contributors
 
