@@ -1,4 +1,5 @@
 # Best-restaurant-of all
+<<<<<<< Updated upstream
 Improve the project description.
 
 Add a missing planned feature.
@@ -13,3 +14,7 @@ we should clarify every step so that we can avoid confusions
 - Raymond (raymondajm39-cyber)
 
 Co-authored-by: Raymond <351252538+raymondajm39-cyber@users.noreply.github.com>
+=======
+it is comming soon AAAa
+it is going to be an outstanding pro
+>>>>>>> Stashed changes
