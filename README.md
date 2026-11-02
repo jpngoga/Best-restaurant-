@@ -5,4 +5,6 @@ Add a missing planned feature.
 
 Clarify the technology stack.
 
+you can jointly add a project setup section explaining how to install dependencies and run the application.
+
 Co-authored-by: Raymond <351252538+raymondajm39-cyber@users.noreply.github.com>
