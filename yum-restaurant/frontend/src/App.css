@@ -1,0 +1,29 @@
+.app-container {
+  min-height: 100vh;
+  background: #f6f7f9;
+}
+
+.app-main {
+  min-height: 100vh;
+  margin-left: 260px;
+}
+
+.page-placeholder {
+  padding: 35px;
+}
+
+.page-placeholder h2 {
+  color: #202437;
+  font-size: 24px;
+}
+
+.page-placeholder p {
+  color: #9297a6;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    margin-left: 0;
+  }
+}

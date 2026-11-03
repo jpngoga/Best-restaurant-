@@ -1,0 +1,393 @@
+.menu-page {
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-heading h2 {
+  margin: 0;
+  color: #202437;
+  font-size: 22px;
+}
+
+.menu-heading p,
+.menu-list-heading p {
+  color: #9297a6;
+  font-size: 12px;
+}
+
+.menu-add-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 17px;
+  border: none;
+  border-radius: 8px;
+  background: #f59e0b;
+  color: #202437;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.menu-stat-card,
+.menu-list-card {
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #eceef2;
+  border-radius: 12px;
+}
+
+.menu-stat-card > svg {
+  color: #e58b08;
+}
+
+.menu-stat-card p {
+  color: #9297a6;
+  font-size: 12px;
+}
+
+.menu-stat-card h3 {
+  margin: 8px 0 0;
+  color: #202437;
+  font-size: 25px;
+}
+
+.menu-list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.menu-list-heading h3 {
+  margin: 0;
+  color: #202437;
+  font-size: 16px;
+}
+
+.menu-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: #f7f8fa;
+  border: 1px solid #eceef2;
+  border-radius: 8px;
+  color: #9297a6;
+}
+
+.menu-search input {
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 12px;
+}
+
+.menu-table-wrapper {
+  overflow-x: auto;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.menu-table th {
+  padding: 13px;
+  background: #f8f9fb;
+  color: #858b9b;
+  font-size: 11px;
+}
+
+.menu-table td {
+  padding: 15px 13px;
+  border-bottom: 1px solid #f0f1f4;
+  color: #555b6d;
+  font-size: 12px;
+}
+
+.menu-item-name {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #303549;
+  font-weight: 600;
+}
+
+.menu-item-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #fff3df;
+  color: #e58b08;
+}
+
+.menu-status {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.menu-status.available {
+  background: #e7f7ef;
+  color: #16865d;
+}
+
+.menu-status.unavailable {
+  background: #fff0ee;
+  color: #d65345;
+}
+
+.menu-action-button {
+  border: none;
+  background: transparent;
+  color: #858b9b;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .menu-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-page {
+    padding: 20px 16px;
+  }
+
+  .menu-heading,
+  .menu-list-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .menu-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* TheMealDB food gallery */
+
+.menu-food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.menu-food-card {
+  overflow: hidden;
+  border: 1px solid #eceef2;
+  border-radius: 13px;
+  background: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-food-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(30, 35, 50, 0.08);
+}
+
+.menu-food-image {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.menu-food-content {
+  padding: 16px;
+}
+
+.menu-food-top,
+.menu-food-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-category {
+  padding: 5px 9px;
+  border-radius: 20px;
+  background: #fff1e8;
+  color: #e87532;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.menu-food-content h3 {
+  margin: 13px 0 6px;
+  color: #202437;
+  font-size: 16px;
+}
+
+.menu-food-content p {
+  margin: 0 0 15px;
+  color: #9297a6;
+  font-size: 12px;
+}
+
+.menu-food-bottom {
+  padding-top: 12px;
+  border-top: 1px solid #f0f1f4;
+}
+
+.menu-example-price {
+  color: #9297a6;
+  font-size: 11px;
+}
+
+.menu-import-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #f47b35;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-import-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.menu-search button {
+  border: 0;
+  background: #f47b35;
+  color: white;
+  padding: 7px 11px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-message {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.menu-message.error {
+  background: #ffeded;
+  color: #c33b3b;
+}
+
+.menu-message.success {
+  background: #e9f8ef;
+  color: #21834a;
+}
+
+.menu-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 50px 15px;
+  color: #9297a6;
+}
+
+.menu-spinner {
+  animation: menu-spin 1s linear infinite;
+}
+
+.menu-attribution {
+  color: #9297a6;
+  font-size: 11px;
+  text-align: right;
+  margin-top: 12px;
+}
+
+@keyframes menu-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1050px) {
+  .menu-food-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .menu-food-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-list-heading {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .menu-search {
+    width: 100%;
+  }
+
+  .menu-search input {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Add dish button */
+.menu-import-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #f47b35;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.menu-import-button:hover:not(:disabled) {
+  background: #df6826;
+}
+
+.menu-import-button:disabled {
+  opacity: 0.85;
+  cursor: not-allowed;
+}
+
+.menu-import-button.added {
+  background: #e7f7ef;
+  color: #16865d;
+}
+
+.menu-import-button.added:hover {
+  background: #e7f7ef;
+}

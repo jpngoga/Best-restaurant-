@@ -1,0 +1,79 @@
+.activity-card {
+  padding: 23px;
+  background: #ffffff;
+  border: 1px solid #eceef2;
+  border-radius: 12px;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.activity-header h3 {
+  margin: 0;
+  color: #202437;
+  font-size: 15px;
+}
+
+.activity-header span {
+  color: #999eaa;
+  font-size: 10px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f1f4;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-icon {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff3df;
+  color: #e58b08;
+}
+
+.activity-description {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-description strong,
+.activity-description span {
+  display: block;
+}
+
+.activity-description strong {
+  color: #303549;
+  font-size: 12px;
+}
+
+.activity-description span {
+  margin-top: 5px;
+  color: #999eaa;
+  font-size: 10px;
+}
+
+.activity-value {
+  color: #303549;
+  font-size: 15px;
+}

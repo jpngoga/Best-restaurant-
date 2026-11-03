@@ -1,0 +1,261 @@
+
+/* ManagementPages.css */
+
+.management-page {
+  padding: 30px 34px;
+  color: #202437;
+}
+
+.management-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.management-heading h2 {
+  margin: 0 0 7px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.management-heading p,
+.management-muted {
+  margin: 0;
+  color: #9297a6;
+  font-size: 13px;
+}
+
+.management-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 9px;
+  background: #f47b35;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.management-button:hover {
+  background: #df6827;
+}
+
+.management-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 17px;
+  margin-bottom: 24px;
+}
+
+.management-stat,
+.management-panel {
+  background: #fff;
+  border: 1px solid #eceef2;
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.management-stat-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9297a6;
+  font-size: 13px;
+}
+
+.management-stat-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #fff1e8;
+  color: #f47b35;
+}
+
+.management-stat h3 {
+  margin: 14px 0 5px;
+  font-size: 25px;
+}
+
+.management-panel {
+  margin-bottom: 20px;
+}
+
+.management-panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.management-panel-heading h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.management-search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 12px;
+  border: 1px solid #e8eaf0;
+  border-radius: 8px;
+  color: #9297a6;
+}
+
+.management-search input {
+  width: 170px;
+  border: 0;
+  outline: 0;
+  color: #202437;
+  background: transparent;
+  font-size: 13px;
+}
+
+.management-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.management-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.management-table th {
+  padding: 13px 12px;
+  color: #9297a6;
+  background: #fafbfc;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.management-table td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #f0f1f4;
+  font-size: 13px;
+}
+
+.management-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.management-status {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: #e9f8ef;
+  color: #21834a;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.management-status.pending {
+  background: #fff4df;
+  color: #b7791f;
+}
+
+.management-status.danger {
+  background: #ffeded;
+  color: #d14343;
+}
+
+.management-status.info {
+  background: #eaf1ff;
+  color: #3867bd;
+}
+
+.management-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.management-item-card {
+  padding: 18px;
+  border: 1px solid #eceef2;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.management-item-card h3 {
+  margin: 10px 0 7px;
+  font-size: 15px;
+}
+
+.management-item-card p {
+  margin: 5px 0;
+  color: #9297a6;
+  font-size: 13px;
+}
+
+.management-item-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff1e8;
+  color: #f47b35;
+}
+
+.management-progress {
+  height: 7px;
+  margin-top: 13px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #edf0f4;
+}
+
+.management-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #f47b35;
+}
+
+@media (max-width: 1000px) {
+  .management-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .management-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .management-page {
+    padding: 22px 16px;
+  }
+
+  .management-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .management-stats,
+  .management-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .management-panel-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .management-search,
+  .management-search input {
+    width: 100%;
+  }
+}
