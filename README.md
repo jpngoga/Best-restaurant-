@@ -1,12 +1,13 @@
 # Best-restaurant-of all
 <<<<<<< Updated upstream
+Best Resto
 Improve the project description.
 
 Add a missing planned feature.
 
 Clarify the technology stack.
 
-we should clarify every step so that we can avoid confusions
+we should clarify every step so that we can avoid confusions 
 the update will come on time 
 
 ## Contributors
