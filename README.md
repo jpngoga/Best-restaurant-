@@ -17,5 +17,5 @@ the update will come on time
 Co-authored-by: Raymond <351252538+raymondajm39-cyber@users.noreply.github.com>
 =======
 
-it is going to be an outstanding work
+it is going to be an outstanding project
 >>>>>>> Stashed changes 
