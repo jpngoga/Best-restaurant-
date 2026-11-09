@@ -1,7 +1,7 @@
 # Best-restaurant-of all
 <<<<<<< Updated upstream
 
-Best Resto
+Best Resto.
 
 Improve the project description.
 
