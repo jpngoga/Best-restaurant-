@@ -7,6 +7,7 @@ Add a missing planned feature.
 Clarify the technology stack.
 
 we should clarify every step so that we can avoid confusions
+the update will come on time 
 
 ## Contributors
 
