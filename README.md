@@ -6,6 +6,8 @@ Add a missing planned feature.
 
 Clarify the technology stack.
 
+about the resto
+
 we should clarify every step so that we can avoid confusions
 the update will come on time 
 
