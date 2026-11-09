@@ -1,6 +1,8 @@
 # Best-restaurant-of all
 <<<<<<< Updated upstream
+
 Best Resto
+
 Improve the project description.
 
 Add a missing planned feature.
